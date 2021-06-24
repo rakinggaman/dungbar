@@ -70,15 +70,16 @@ nav {
 }
 
 
-/*Hero*/
 
-section {
-    margin-top: 96px;
+/*Hero*/
+.hero {
+    padding: 90px;
 }
+
 
 .color-acsent {
     color: var(--acsent-color);
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .btn-custom1 {
@@ -105,9 +106,36 @@ section {
     color: #ffffff;
 }
 
-.col img {
+/* .col img {
     height: 800px;
     width: 1200px;
     margin-top: -800px;
     margin-right: -300px;
+} */
+
+.profil-pic {
+    height: 500px;
+    width: 350px;
+    top: 40px;
+}
+
+/* Media Breaking Point */
+@media (max-width: 576px) { 
+    .hero {
+        padding: 30px;
+    }
+
+    .profil-pic {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 30px;
+    }
+
+    .profil-pic {
+        display: none;
+    }
 }
