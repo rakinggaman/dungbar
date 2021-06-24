@@ -1,0 +1,23 @@
+<section id="about"><div class="container"><div class="card" style=" background-color: #FFD369;"><div class="card-body"><h2 class="card-title">Hello,
+i’m Muhammad Rifki Pratama</h2><h1 class="card-text">Illustrator,
+UI/UX Designer <br>and Web Developer</h1></div></div></div></section>.card {
+    position: absolute;
+    width: 1290px;
+    height: 660px;
+    left: 300px;
+    top: 236px;
+}
+
+.card-title {
+    position: absolute;
+    width: 1156px;
+    height: 660px;
+    left: 142px;
+    top: 236px;
+}
+
+.card-text {
+    position: absolute;
+    left: 142px;
+    top: 300px;
+}
